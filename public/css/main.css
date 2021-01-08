@@ -1,0 +1,171 @@
+/* General */
+* {
+  color: white;
+}
+
+.custom-navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.wrapper {
+  height: 100%;
+}
+
+.bg-navbar-navy {
+  background-color: black;
+}
+
+/* Home section */
+
+.home .centered {
+  position: relative;
+  top: 40%;
+  max-width: 40em;
+}
+
+.centered h3 {
+  color: #c0c0c0;
+  font-size: 0.95em;
+  margin: 1em 0 2em 0;
+}
+
+.centered hr {
+  background-color: white;
+  max-width: 20em;
+  opacity: 0.3;
+}
+
+section.home {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(../images/header-background.webp) no-repeat top center;
+  background-size: cover !important;
+  -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
+}
+
+ul.social {
+  margin: 24px 0;
+  padding: 0;
+  font-size: 30px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+li.social {
+  display: inline-block;
+  margin: 0 14px;
+  padding: 0;
+}
+
+/* About section */
+
+.about p,
+span {
+  color: #949393;
+}
+.about em {
+  color: white;
+}
+img.about {
+  width: inherit;
+  max-width: 200px;
+}
+section.about {
+  padding: 10em 1em 10em 1em;
+  background-color: #060915;
+}
+.center {
+  text-align: center;
+}
+
+a b {
+  color: white;
+}
+
+/* Resume section */
+
+section.resume {
+  padding: 6em 1em 6em 1em;
+  color: black;
+}
+
+h1 span {
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 6px;
+  font-size: 0.7em;
+}
+
+@media (max-width: 991px) {
+  .resume h1,
+  h4,
+  .info {
+    text-align: center;
+  }
+}
+
+.resume-row {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 2em;
+}
+
+.resume span {
+  color: #060915;
+  font-size: 0.6em;
+}
+.resume p {
+  color: #949393;
+}
+.resume h4 {
+  color: #060915;
+}
+
+.resume .info,
+em {
+  color: #555555;
+}
+
+.skill-image {
+  max-width: 100px;
+}
+
+/* Works section */
+
+section.works {
+  background-color: #949393;
+}
+
+.works-image {
+  height: 200px;
+}
+
+.works-header {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.works-header span {
+  color: white;
+}
+
+.works div,
+b {
+  color: #060915;
+}
+
+.works-buttons {
+  position: absolute;
+  bottom: 1em;
+}
+
+.link-icon {
+  color: #007bff;
+  font-size: 0.8em;
+}

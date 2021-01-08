@@ -1,0 +1,170 @@
+{
+  "main": {
+    "name": "Ben Wegert",
+    "occupation": "Web Developer",
+    "description": "I strive to help businesses improve workflows using the latest web technologies",
+    "image": "profilepic.jpg",
+    "bio": "Enjoys building full stack applications that help businesses whether that is a website, a mobile app, or a desktop application. Other interests include cryptocurrencies and technical analyis.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "benwegert@gmail.com",
+    "phone": "778-288-3978",
+    "address": {
+      "street": "",
+      "city": "Langley",
+      "state": "BC",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload": "./BenResume.docx",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/ben.wegert",
+        "className": "fab fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/bwegert99",
+        "className": "fab fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ben-wegert-88944817b/",
+        "className": "fab fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/ben.wegert/",
+        "className": "fab fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/BenWegert",
+        "className": "fab fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Some of my favourite technologies.",
+    "education": [
+      {
+        "school": "Kwantlen Polytechnic University",
+        "degree": "Computer Information Systems Diploma",
+        "graduated": "December 2019",
+        "description": "4.13 GPA. Top student in several courses. Courses included Database Management, Java, Data Structures, Web Development, Networking, Computer Security."
+      },
+      {
+        "school": "Kwantlen Polytechnic University",
+        "degree": "Engineering Certificate",
+        "graduated": "April 2018",
+        "description": "3.12 GPA. Courses included C++ - Intro, C - Programming on a higher level with robots, Calculus, Matrix Algebra, Mechanics, Physics."
+      }
+    ],
+    "work": [
+      {
+        "company": "Cloud9 Solutions",
+        "title": "Client Systems Technician/Web Developer",
+        "years": "January 2020 - Present",
+        "description": "Initially started as IT Support/Technician based in Surrey but now work at a Mine in Northern BC setting up/imaging PCs, switches, cameras, radios, point to points, etc. Also working on developing an online store web app."
+      },
+      {
+        "company": "Canwest Aerospace",
+        "title": "General Labourer",
+        "years": "May 2018 - January 2020",
+        "description": "Duties included cleaning parts, inventory and hangar maintenance. Cleaning parts consisted of using different chemicals for different materials, bead/glass blasting, paint striping, etc. Inventory consisted of counting tens of thousands, if not hundreds of thousands, of parts."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "image": "git.jpg",
+        "info": "Easy to use for organizing my code. I use it for most of my projects (at least once the codebase grows)."
+      },
+      {
+        "name": "NodeJS",
+        "image": "node.jpg",
+        "info": "Definitely my backend software of choice. I've used it on most of my latest projects."
+      },
+      {
+        "name": "ReactJS and React Native",
+        "image": "react.jpg",
+        "info": "My frontend software of choice as I've used it for several of my latest projects including this website"
+      },
+      {
+        "name": "Python",
+        "image": "python.jpg",
+        "info": "Preferred language for automation requirements that a project may have."
+      },
+      {
+        "name": "MongoDB",
+        "image": "mongo.jpg",
+        "info": "My favourite database software. Other databases I've used are MySQL, PSQL, and Oracle."
+      },
+      {
+        "name": "Heroku",
+        "image": "heroku.jpg",
+        "info": "A platform I use to host my projects in combination with Github."
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Cloud9 Solution Store",
+        "status": "Stopped",
+        "badge": "warning",
+        "category": "Tech data integration for Cloud9 clients.",
+        "image": "cloud9.jpg",
+        "url": "https://store.dev-bw.ml",
+        "more": "This website uses NodeJs, MongoDB, React/Redux. Authentication is done using Microsoft Oauth and the base functionality is the integration of Tech Data Canada's API. The website will be the front facing online store for clients that have had their email addresses authorized. Tech Data XML API, PayPal Checkout API, IT Glue REST API, and a NodeJS backend API is what this website uses to function."
+      },
+      {
+        "title": "Youtube Channel Automation",
+        "status": "In Progress",
+        "badge": "warning",
+        "category": "Automation of a Youtube channel using Reddit's API",
+        "image": "youtube.jpg",
+        "url": "",
+        "more": "Using Python, the goal of this project is to automate a Youtube channel. The program uses the Reddit API and MoviePy library to download, concatenate, and render videos which can than be uploaded to YouTube using their API. The videos can be gathered from specific subreddits using filters and it can also pull videos from TikTok but it is less efficient. The last functionality currently is that it can pull subreddit submissions from a specified subreddit, put the text in a video and narrate it using Google's text to speech library."
+      },
+      {
+        "title": "AlgoSats App",
+        "status": "In Progress",
+        "badge": "warning",
+        "category": "Mobile complimenting my Algosats website",
+        "image": "splash.png",
+        "url": "",
+        "more": "The app uses React Native and Expo. It currently receives push notifications from the same backend as my AlgoSats website."
+      },
+      {
+        "title": "AlgoSats - Personal Project",
+        "category": "Crypto related website",
+        "status": "In Progress",
+        "badge": "warning",
+        "image": "algosats.jpg",
+        "url": "https://algosats.ca",
+        "more": "This website uses NodeJS, MongoDB, and React. It has a basic chart that receives instant updates from Binance's websockets and my own backend websocket server. It also scans about 50-100 cryptocurrency USDT pairs, takes screenshots of charts originating in browser and sends signals to telegram and my mobile app based on a strategy I've developed. The plan is to make the chart better and implement analytical tools into the website."
+      },
+      {
+        "title": "CryptoTrade University Project",
+        "status": "Demo",
+        "badge": "success",
+        "category": "A demo crypto trading competition platform",
+        "image": "cryptotrade.jpg",
+        "url": "https://trade.dev-bw.ml",
+        "more": "This was a last semester University project. Technologies used are MySQL, PHP, Vanilla JS, jQuery and ajax. This website allows an admin to create trading competitions and manage them. Users who sign up for competitions then get an initial amount of demo money to trade within the given amount of time of the competition. The leaderboard shows current rankings as well as completed and upcoming competitions. Look below for the admin account credentials.",
+        "user": "admin",
+        "pass": "Qwerty123"
+      },
+      {
+        "title": "Google Scripts Crypto Scanner",
+        "status": "In Production",
+        "badge": "success",
+        "category": "A program that periodically checks price history of dynamically selected cryptocurrencies.",
+        "image": "google.jpg",
+        "more": "This application runs on Google scripts and uses Binance's API as a data source. After receiving the data it scans history price points for patterns and sends signals to Twitter and Telegram.",
+        "url": "https://t.me/TdAlerts"
+      }
+    ]
+  }
+}
